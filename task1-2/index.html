@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Тестовое задание №1</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<!-- Заголовок -->
+		<div class="d-flex justify-content-between">
+			<p class="d-sm-inline-block d-none">Тестовое задание №1 (на jQuery)</p>
+			<p class="d-md-inline-block d-none">Выполнил: Гордеев Ян</p>
+		</div>
+		<!-- Строка поиска с кнопками управления -->
+		<div class="row justify-content-around mt-3 mt-sm-0">
+			<input type="text" id="textQuery" class="form-control col-5 col-sm-8" placeholder="Поиск">
+			<button class="btn btn-primary pb-0 col-2 col-sm-1" id="search" title="Найти">
+				<i class="material-icons text-white">search</i>
+			</button>
+			<button class="btn btn-primary pb-0 col-2 col-sm-1" id="format" title="Учитывать регистр">
+				<i class="material-icons text-white">format_size</i>
+			</button>
+			<button class="btn btn-primary pb-0 col-2 col-sm-1" id="refresh" title="Обновить таблицу">
+				<i class="material-icons text-white">refresh</i>
+			</button>
+		</div>
+		<!-- Предупреждение -->
+		<span class="text-danger d-none mt-1" id="warning">По указанному запросу ничего не нашлось</span>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="test1.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

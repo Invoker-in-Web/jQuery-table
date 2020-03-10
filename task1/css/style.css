@@ -1,0 +1,17 @@
+/* Оптимизация для маленьких экранов */
+@media (max-width: 400px) {
+	table {
+		font-size: 14px;
+	}
+}
+@media (max-width: 350px) {
+	table {
+		font-size: 12px;
+	}
+}
+/* Оптимизация для очень маленьких экранов */
+@media (max-width: 300px) {
+	table {
+		font-size: 10px;
+	}
+}
